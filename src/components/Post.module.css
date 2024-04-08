@@ -22,6 +22,9 @@
     color: #593884;
     font-style: italic;
   }
+  .post a {
+    text-decoration: none;
+  }
   
   @keyframes animate-in {
     from {
