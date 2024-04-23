@@ -118,7 +118,7 @@ function EditTaxe() {
             name="operatingDay"
             value={companyInfo.operatingDay}
             onChange={handleChangeCompanyInfo}
-            required
+            readOnly
           />
           <label htmlFor="tax">Quản lý bởi</label>
           <input
@@ -148,7 +148,7 @@ function EditTaxe() {
             name="dateUpdate"
             value={companyInfo.dateUpdate}
             onChange={handleChangeCompanyInfo}
-            required
+            readOnly
           />
         </p>
 
