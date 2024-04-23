@@ -22,7 +22,16 @@
   background-color: #c4a9e4;
   color: #28262c;
 }
-
+.form select{
+  display: block;
+  width: 100%;
+  font: inherit;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: none;
+  background-color: #c4a9e4;
+  color: #28262c;
+}
 .actions {
   display: flex;
   justify-content: flex-end;

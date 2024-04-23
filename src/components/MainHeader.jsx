@@ -8,12 +8,12 @@ function MainHeader() {
     <header className={classes.header}>
       <h1 className={classes.logo}>
         <MdMessage />
-        Post 
+       Taxes
       </h1>
       <p>
-        <Link to='/create-post' className={classes.button} >
+        <Link to='/search' className={classes.button} >
           <MdPostAdd size={18} />
-          New Post
+          New Taxes
         </Link>
       </p>
     </header>
