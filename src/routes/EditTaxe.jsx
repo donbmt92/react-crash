@@ -141,7 +141,7 @@ function EditTaxe() {
             <option value="1">tạm ngưng</option>
             <option value="2">đã giải thể</option>
           </select>
-          <label htmlFor="tax">dateUpdate</label>
+          <label htmlFor="tax">Ngày Cập Nhật</label>
           <input
             type="text"
             id="dateUpdate"
